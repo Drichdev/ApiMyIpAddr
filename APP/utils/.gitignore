@@ -1,0 +1,87 @@
+# Créé par https://www.toptal.com/developers/gitignore/api/flutter,visualstudiocode
+# Modifier sur https://www.toptal.com/developers/gitignore?templates=flutter,visualstudiocode
+
+### Battement ###
+# Lié à Flutter/Dart/Pub
+**/doc/api/
+.dart_tool/
+.plugins-flutter
+.dépendances-plugins-flutter
+.fvm/flutter_sdk
+.paquets
+.pub-cache/
+.pub/
+construire/
+couverture/
+lib/generated_plugin_registrant.dart
+# Pour les packages de bibliothèque, ne validez pas le fichier pubspec.lock.
+# La régénération du fichier pubspec.lock vous permet de tester votre package par rapport aux dernières versions compatibles de ses dépendances.
+# Voir https://dart.dev/guides/libraries/private-files#pubspeclock
+#pubspec.lock
+
+# Lié à Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/key.properties
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Lié à iOS/XCode
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icône ?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profil
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions aux règles ci-dessus.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-extraits
+
+# Historique local pour Visual Studio Code
+.histoire/
+
+# Création d'extensions de code Visual Studio
+*.vsix
+
+### Correctif VisualStudioCode ###
+# Ignorer tout l'historique local des fichiers
+.histoire
+.ionide
+
+# Fin de https://www.toptal.com/developers/gitignore/api/flutter,visualstudiocode
